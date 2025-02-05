@@ -1,0 +1,6 @@
+This error occurs when using Tailwind CSS's `@apply` directive with a class that doesn't exist or is misspelled.  For example:
+```html
+<div class="bg-blue-500 @apply text-xl font-bold">
+</div>
+```
+If the class `text-xl` or `font-bold` is not defined in your Tailwind CSS configuration, it will result in the class being ignored, causing the unexpected styling.
